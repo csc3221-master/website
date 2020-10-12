@@ -1,11 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e51c2bd-8adc-43bd-970b-a1a6149b5496" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1inLQdTp7Ldws7g8Z5KCxOiOxc3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.5.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.11.8" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e51c2bd-8adc-43bd-970b-a1a6149b5496" name="Default Changelist" comment="" />
+      <created>1602538394295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602538394295</updated>
+      <workItem from="1602538395820" duration="3592000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit after clion generated initial code">
+      <created>1602538534620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602538534620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit after clion generated initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit after clion generated initial code" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602539384340">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="445" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539384340" />
+    <state x="211" y="42" key="CommitChangelistDialog2" timestamp="1602538534324">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="211" y="42" key="CommitChangelistDialog2/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602538534324" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1602539327365">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539327365" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1602539327361">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539327361" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1602539327357">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539327357" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1602539327364">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539327364" />
   </component>
 </project>

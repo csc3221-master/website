@@ -2,9 +2,18 @@
   "name": "website",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "main": "./bin/www",
+  "engines": {
+    "node": "12.x"
   },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"No Test set up\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "heroku"
+  ],
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
