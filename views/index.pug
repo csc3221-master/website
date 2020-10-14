@@ -3,3 +3,9 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  .container
+    .jumbotron
+      h1 This is a Bootstrap example using PUG
+      p Let's see if this actually works, if not, I'm going to rollback to previous commit
+      p
+        a.btn.btn-lg.btn-primary(href='main.html', role='button') Go to Main Page

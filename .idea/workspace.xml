@@ -10,13 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e51c2bd-8adc-43bd-970b-a1a6149b5496" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/second.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout-future.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -56,12 +54,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -73,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602538394295</updated>
-      <workItem from="1602538395820" duration="3592000" />
+      <workItem from="1602538395820" duration="4495000" />
+      <workItem from="1602689271340" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit after clion generated initial code">
       <created>1602538534620</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602538534620</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some code done">
+      <created>1602542306726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602542306726</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,32 +96,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit after clion generated initial code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit after clion generated initial code" />
+    <MESSAGE value="some code done" />
+    <option name="LAST_COMMIT_MESSAGE" value="some code done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602539384340">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="445" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539384340" />
-    <state x="211" y="42" key="CommitChangelistDialog2" timestamp="1602538534324">
+    <state x="211" y="42" key="CommitChangelistDialog2" timestamp="1602542306395">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="211" y="42" key="CommitChangelistDialog2/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602538534324" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1602539327365">
+    <state x="211" y="42" key="CommitChangelistDialog2/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602542306395" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom" timestamp="1602543545217">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539327365" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1602539327361">
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602543545217" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center" timestamp="1602543545216">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539327361" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1602539327357">
+    <state width="1398" height="315" key="GridCell.Tab.0.center/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602543545216" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left" timestamp="1602543545215">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539327357" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1602539327364">
+    <state width="1398" height="315" key="GridCell.Tab.0.left/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602543545215" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right" timestamp="1602543545216">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602539327364" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602543545216" />
+    <state x="-2067" y="-651" key="SettingsEditor" timestamp="1602689975191">
+      <screen x="-3840" y="-1008" width="3840" height="2137" />
+    </state>
+    <state x="-2067" y="-651" key="SettingsEditor/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@-3840.-1008.3840.2137" timestamp="1602689975191" />
+    <state x="319" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602542309761">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-3840.-1008.3840.2137/-6400.-512.2560.1417@0.23.1440.877" timestamp="1602542309761" />
   </component>
 </project>
