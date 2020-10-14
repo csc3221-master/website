@@ -5,7 +5,7 @@
     <title>Forms Page Example</title>
 </head>
 <p>
-    <div>
+    <div id="intro">
         <p>
             Forms are used for receiving information from the user, they provide
             interactivity with the web pages. To use forms we need to use the <strong>form
@@ -14,17 +14,27 @@
     </div>
     <h2>A Form</h2>
     <hr>
-    <form action="/api/addfriend" method="post" autocomplete="off" name="frmAddFriend">
+    <form action="/api/addfriend" method="post" autocomplete="off" id="frmAddFriend">
+        Please input something: <input type="text" name="sometext" id="sometext">
         <label for="input1">Input 1:</label>
-        <input type="checkbox" name="input1" id="input1">
+        <input type="checkbox" name="input1" id="input1"><br>
         <label for="input2">Input 2:</label>
-        <input type="color" name="input2" id="input2">
+        <input type="color" name="input2" id="input2"><br>
         <label for="input3">Input 3:</label>
-        <input type="date" name="input3" id="input3">
+        <input type="date" name="input3" id="input3"><br>
         <label for="input4">Input 4:</label>
-        <input type="number" name="input4" id="input4">
+        <input type="number" name="input4" id="input4"><br>
+        <label for="input5">Input 4:</label>
+        <input type="text" name="input5" id="input5"><br>
+        <select name="choice" id="choice">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
         <br>
         <input type="submit" name="submit" value="Done!">
+        <input type="reset" name="reset" value="Undo">
+
     </form>
     <p>
         <ol>
